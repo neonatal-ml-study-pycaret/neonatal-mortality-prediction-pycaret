@@ -16,10 +16,11 @@ Pré-processamento realizado via setup()
 Comparação entre múltiplos algoritmos
 Dados
 
-Os dados utilizados são provenientes de bases públicas de saúde.
+Os dados utilizados são provenientes de bases públicas de saúde (ex: SINASC/DATASUS).
 
+Observação: os dados brutos podem não estar incluídos neste repositório. Recomenda-se obtê-los diretamente das plataformas oficiais.
 
-*Reprodutibilidade*
+Reprodutibilidade
 
 Para executar o projeto:
 
@@ -32,7 +33,6 @@ Configuração Experimental
 Uso do setup() do PyCaret
 Definição de divisão treino/teste via test_size
 Uso de session_id para garantir reprodutibilidade
-
 Resultados
 
 Os modelos são avaliados com métricas padrão de classificação, como acurácia, AUC, recall, precisão e F1-score.
@@ -41,6 +41,6 @@ Disponibilidade do Código
 
 O código utilizado no estudo está disponível neste repositório para fins de reprodutibilidade científica.
 
- Autor
+Autor
 
 Metusalen Rocha
