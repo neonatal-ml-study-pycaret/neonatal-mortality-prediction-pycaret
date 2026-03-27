@@ -1,46 +1,33 @@
-Predição de Mortalidade Neonatal com Machine Learning (PyCaret)
-Descrição
+# Predição de Mortalidade Neonatal com Machine Learning
 
-Este repositório contém os códigos e a configuração experimental utilizados no estudo sobre predição de mortalidade neonatal por meio de técnicas de aprendizado de máquina.
+## Descrição
 
-O foco principal é a reprodutibilidade dos experimentos, utilizando a biblioteca PyCaret para padronização e comparação de modelos.
+Código do estudo de predição de mortalidade neonatal utilizando PyCaret, com foco em reprodutibilidade.
 
-Objetivo
+## Objetivo
 
-Reproduzir e avaliar modelos de machine learning aplicados à predição de mortalidade neonatal, com base em dados públicos de saúde.
+Avaliar modelos de machine learning aplicados a dados públicos de saúde.
 
-Metodologia
-Uso de PyCaret para automação de modelos (AutoML)
-Problema de classificação binária (óbito neonatal vs. sobrevivência)
-Pré-processamento realizado via setup()
-Comparação entre múltiplos algoritmos
-Dados
+## Metodologia
 
-Os dados utilizados são provenientes de bases públicas de saúde (ex: SINASC/DATASUS).
+* Classificação binária
+* Uso de PyCaret (AutoML)
+* Comparação de modelos
 
-Observação: os dados brutos podem não estar incluídos neste repositório. Recomenda-se obtê-los diretamente das plataformas oficiais.
+## Dados
 
-Reprodutibilidade
+Base pública (SINASC/DATASUS).
 
-Para executar o projeto:
+## Execução
 
+```id="cmd1"
 pip install -r requirements.txt
+```
+
+```id="cmd2"
 jupyter notebook
+```
 
-Em seguida, execute o notebook principal disponível no repositório.
-
-Configuração Experimental
-Uso do setup() do PyCaret
-Definição de divisão treino/teste via test_size
-Uso de session_id para garantir reprodutibilidade
-Resultados
-
-Os modelos são avaliados com métricas padrão de classificação, como acurácia, AUC, recall, precisão e F1-score.
-
-Disponibilidade do Código
-
-O código utilizado no estudo está disponível neste repositório para fins de reprodutibilidade científica.
-
-Autor
+## Autor
 
 Metusalen Rocha
