@@ -19,7 +19,7 @@ Dados
 Os dados utilizados são provenientes de bases públicas de saúde.
 
 
-Reprodutibilidade
+*Reprodutibilidade*
 
 Para executar o projeto:
 
